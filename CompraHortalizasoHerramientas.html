@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Compras</title>
+
+    <link rel="stylesheet" href="CSSCompras.css">
+
+</head>
+
+<body>
+
+    <head>
+
+        <p id="compra" style="font-size:xxx-large;">Comprar Productos</p>
+        <a href="PaginaPrcpalHort.html">Para volver a la página principal pulse aquí.</a>
+
+
+    </head>
+
+    <form id="formulario" action="/php/insertar_cv.php" method="post" enctype="multipart/form-data">
+        Nombre Y Apellidos: <br />
+        <input type="text" name="nombre" value="" size="50" maxlength="80" />
+
+        <br />
+
+        CorreoElectrónico: <br />
+        <input type="text" name="CorreoElectrónico" value="" size="50" maxlength="80" />
+
+
+        <br />
+
+        A domicilio o Recoger en persona: <br />
+        <input type="radio" name="A domicilio o Recoger en persona" value="A domicilio" checked="checked" /> A domicilio
+        <br />
+        <input type="radio" name="A domicilio o Recoger en persona" value="Recoger en persona" /> Recoger en persona
+
+        <br /><br />
+
+        <input name="suscribir" type="checkbox" value="Notificar al correo adjunto sobre novedades de la página"
+            checked="checked" /> Notificar al correo adjunto sobre novedades de la página
+
+        <br /><br />
+
+        <input type="submit" name="enviar" value="Comprar" />
+        <input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+
+
+    </form>
+
+
+</body>
+
+</html>

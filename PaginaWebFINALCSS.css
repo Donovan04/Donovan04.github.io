@@ -1,0 +1,71 @@
+html {
+    background-image: url("https://images.ecestaticos.com/kZjNrDAZ0f6L5m8p91rS89Twpp0=/0x0:0x0/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdc9%2F277%2Fac6%2Fdc9277ac614782dac6b8b32eca7417d0.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#inf {
+    position: absolute;
+    top: 2000px;
+    width: 700px;
+    height: 50px;
+    background-color: #e7ecec;
+}
+
+#otros {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 400px;
+    top: 1050px;
+    width: 1000px;
+    height: 100px;
+    background-color: #e7ecec;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 600px;
+    top: 1200px;
+    width: 500px;
+    height: 100px;
+    background-color: #0be491;
+}
+
+#fotohort {
+    position: absolute;
+    right: 400px;
+    top: 1650px;
+    width: 400px;
+    height: 800px
+}
+
+#footer {
+    position: absolute;
+    top: 2500px;
+    width: 250px;
+    height: 25px;
+    background-color: #e7ecec;
+}
+
+#precios {
+    width: 100px;
+    height: 25px;
+    background-color: #edf101;
+}
+
+table {
+    border: 2px solid green;
+    width: 100%;
+}
+
+th, td {
+    margin: 10px;
+    padding: 15px; 
+    text-align: center;
+}

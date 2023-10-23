@@ -1,0 +1,26 @@
+html {
+    background-image: url("https://1.bp.blogspot.com/-Y2TBmGkP1Qk/VgBv9G8EiuI/AAAAAAAAA-A/cUrKilrg42EIX_P31S89-r70-wO823yiACKgB/s1600/302.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+#compra {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 550px;
+    top: 10px;
+    background-color: #fdf91d;
+    width: 500px;
+    height: 100px
+}
+
+#formulario {
+    position: absolute;
+    right: 600px;
+    top: 300px;
+    background-color: #f2f2f2;
+    width: 400px;
+    height: 300px
+}
